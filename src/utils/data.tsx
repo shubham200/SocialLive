@@ -439,3 +439,4 @@ export const categories = [
 		categorySlug: "food-festival",
 	},
 ];
+export const imageUrl= "https://plus.unsplash.com/premium_photo-1668373195979-38379ee559f0?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aG91c2UlMjBwYXJ0eXxlbnwwfHwwfHx8MA%3D%3D"

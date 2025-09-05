@@ -3,7 +3,8 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { RootStackParamList } from './types';
 import HomeScreen from '../screens/home-screen/HomeScreen';
-import EventDetails from '../screens/home-screen/event-details/EventDetails';
+import EventDetails from '../screens/event-details/EventDetails';
+import TicketScreen from '../screens/ticket-screen/TicketScreen';
 
 const Stack = createStackNavigator<RootStackParamList>();
 
@@ -21,6 +22,10 @@ const AppNavigator = () => {
         <Stack.Screen 
           name="EventDetails" 
           component={EventDetails}
+        />
+        <Stack.Screen 
+          name="TicketScreen" 
+          component={TicketScreen}
         />
       </Stack.Navigator>
     </NavigationContainer>
